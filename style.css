@@ -1,9 +1,9 @@
 :root {
---bg: #FFD864; /* page background */
---text: #131b23; /* main body text */
---accent: #e9f1f7; /* buttons, links, borders */
---accent-soft: #2274a5; /* subtle panel background */
---font-base: system-ui, -apple-system, BlinkMacSystemFont,
+bg: #FFD864; /* page background */
+text: #131b23; /* main body text */
+accent: #e9f1f7; /* buttons, links, borders */
+accent-soft: #2274a5; /* subtle panel background */
+font-base: system-ui, -apple-system, BlinkMacSystemFont,
 "Segoe UI", sans-serif;
 }
 * {
