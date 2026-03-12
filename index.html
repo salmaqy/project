@@ -4,117 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Production Diary – My Portfolio Progress by Chime Salma</title>
-    <link rel = "stylesheet" href = "style.css"/>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <main>
+    <main class="page-wrap">
         <h1>Production Diary: My Portfolio Progress Check</h1>
-        <section id="production-diary">
-        <h2>Production Diary</h2>
+
+        <section class="diary-entry">
+            <h2>Entry 2</h2>
+            <p class="date"><strong>Date:</strong> 12 March 2026</p>
+            <ul>
+                <li>
+                    <h3>What did you manage to create during this period?</h3>
+                    <p>I made significant progress on styling my portfolio with CSS. I applied CSS Flexbox to lay out the navigation bar and the projects section, making them visually organised and easy to navigate. I also began adding responsive design using media queries so that the site adapts properly on mobile screens. In addition, I completed the CS Maths &amp; Tools page with sections covering binary, hexadecimal, and logic gates.</p>
+                </li>
+                <li>
+                    <h3>What did you find most challenging?</h3>
+                    <p>The most challenging aspect was getting the CSS Flexbox layout to behave consistently across different screen sizes. Understanding when to use <code>flex-wrap</code>, <code>justify-content</code>, and <code>align-items</code> together took a lot of trial and error. I also found writing clear explanations for the CS Maths topics difficult, as I wanted to be accurate without being overly technical.</p>
+                </li>
+                <li>
+                    <h3>What did you learn about web development or computer science maths from this work?</h3>
+                    <p>I deepened my understanding of hexadecimal notation and how it is used as a shorthand for binary in computing contexts such as colour codes and memory addresses. I can now confidently convert between binary, decimal, and hexadecimal, which has helped me understand CSS colour values more intuitively.</p>
+                </li>
+                <li>
+                    <h3>What did you learn about web development or computer science?</h3>
+                    <p>I learned how CSS media queries work and how to write mobile-first styles. I also explored CSS custom properties (variables) for maintaining a consistent colour palette across the site, which has made updating the design much easier.</p>
+                </li>
+                <li>
+                    <h3>What is one improvement you can guarantee for the upcoming weeks?</h3>
+                    <p>I will add basic JavaScript interactivity to my portfolio — specifically a smooth-scroll navigation and a simple project filter feature — so that the site feels more dynamic and modern.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="diary-entry">
+            <h2>Entry 1</h2>
             <p class="date"><strong>Date:</strong> 13 February 2026</p>
             <ul>
-        <h3>What did you manage to create during this period?</h3>
-            <li><p>I focused on creating or improving the main sections (About, Projects, Skills, Contact) and setting up the foundation for my CS Maths & Tools page. I created a clean HTML structure for my portfolio homepage and began styling with CSS to ensure a professional appearance. </p>
-            </li>
-                
-        <h3>What did you find most challenging?</h3>
-            <li><p> I think I found it difficult to understand the GitHub Pages workflow at first, learning how to push my files to the repository, set up the correct branch, and make my site live took several attempts. Additionally, writing about my projects and skills in clear, professional English whilst being concise proved challenging, as I wanted to showcase my work without writing excessively long descriptions.</p>
-            </li>
-                
-        <h3>What did you learn about web development or computer science maths from this work?</h3>
-            <li><p>In terms of computer science maths, I improved my understanding of the binary number system and how decimal numbers are converted into binary. I learned how binary represents data using only 0s and 1s, which are the fundamental building blocks of computing.</p>
-            </li>
-                
-        <h3>What did you learn about web development or computer science?</h3>
-            <li><p> I learned about HTML semantic elements and how they improve both accessibility and code readability.</p>
-            </li>
-                
-        <h3>What is one improvement you can guarantee for the upcoming weeks?</h3>
-            <li><p> I want to be able to recall various commands and be able t implement them in many wesite codes. I also want to be able to master CSS and its elements</p>
-            </li>
+                <li>
+                    <h3>What did you manage to create during this period?</h3>
+                    <p>I focused on creating or improving the main sections (About, Projects, Skills, Contact) and setting up the foundation for my CS Maths &amp; Tools page. I created a clean HTML structure for my portfolio homepage and began styling with CSS to ensure a professional appearance.</p>
+                </li>
+                <li>
+                    <h3>What did you find most challenging?</h3>
+                    <p>I found it difficult to understand the GitHub Pages workflow at first — learning how to push my files to the repository, set up the correct branch, and make my site live took several attempts. Additionally, writing about my projects and skills in clear, professional English whilst being concise proved challenging, as I wanted to showcase my work without writing excessively long descriptions.</p>
+                </li>
+                <li>
+                    <h3>What did you learn about web development or computer science maths from this work?</h3>
+                    <p>In terms of computer science maths, I improved my understanding of the binary number system and how decimal numbers are converted into binary. I learned how binary represents data using only 0s and 1s, which are the fundamental building blocks of computing.</p>
+                </li>
+                <li>
+                    <h3>What did you learn about web development or computer science?</h3>
+                    <p>I learned about HTML semantic elements and how they improve both accessibility and code readability.</p>
+                </li>
+                <li>
+                    <h3>What is one improvement you can guarantee for the upcoming weeks?</h3>
+                    <p>I want to be able to recall various CSS commands and implement them across many website designs. I also want to master CSS and its elements.</p>
+                </li>
             </ul>
-            <!-- Contact Form — paste into your HTML where you want the form -->
-            <section id="contact">
-        <h2>Get In Touch</h2>
-            <form id="contact-form">
-            <div>
-        <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" required placeholder="Jane Smith" />
-            </div>
-            <div>
-        <label for="email">Your Email</label>
-            <input type="email" id="email" name="email" required placeholder="jane@example.com" />
-            </div>
-            <div>
-        <label for="message">Message</label>
-            <textarea id="message" name="message" required placeholder="Say hello..." rows="5"></textarea>
-            </div>
-            <button type="submit" id="submit-btn">Send Message</button>
-            <p id="form-status"></p>
-            </form>
         </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form id="contact-form">
+                <div>
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Jane Smith" />
+                </div>
+                <div>
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required placeholder="jane@example.com" />
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="Say hello..." rows="5"></textarea>
+                </div>
+                <button type="submit" id="submit-btn">Send Message</button>
+                <p id="form-status"></p>
+            </form>
         </section>
     </main>
 
-    <script>
-// ── Supabase config ─────────────────────────────────────────────
-// Replace these two values with YOUR project URL and anon key
-const SUPABASE_URL = "https://kdlqktsggmcenqygocbt.supabase.co";
-const SUPABASE_ANON = "sb_publishable_MJ_uBUGgm8H__Hyk6ARifQ_MhcpUMbA";
-// ── Form submission handler ──────────────────────────────────────
-document.getElementById("contact-form")
-.addEventListener("submit", async function (event) {
-// Prevent the default browser form submission (page reload)
-event.preventDefault();
-
-    // Grab the form values
-const name = document.getElementById("name").value.trim();
-const email = document.getElementById("email").value.trim();
-const message = document.getElementById("message").value.trim();
-const btn = document.getElementById("submit-btn");
-const status = document.getElementById("form-status");
-// Disable the button while we send (prevents double-submit)
-btn.disabled = true;
-btn.textContent = "Sending...";
-status.textContent = "";
-try {
-// Call the Supabase REST API to insert a row
-const response = await fetch(
-`${SUPABASE_URL}/rest/v1/contact_messages`,
-{
-method: "POST",
-headers: {
-"Content-Type": "application/json",
-"apikey": SUPABASE_ANON,
-"Authorization": `Bearer ${SUPABASE_ANON}`,
-"Prefer": "return=minimal"
-},
-body: JSON.stringify({ name, email, message })
-}
-);
-if (response.ok) {
-// Success — show confirmation and reset the form
-status.textContent = "✓ Message sent! I will be in touch soon.";
-status.style.color = "#1A7A4A";
-event.target.reset();
-} else {
-// Supabase returned an error — log it for debugging
-const err = await response.json();
-console.error("Supabase error:", err);
-status.textContent = "Something went wrong. Please try again.";
-status.style.color = "#DC2626";
-}
-} catch (networkError) {
-// Network/connectivity problem
-console.error("Network error:", networkError);
-status.textContent = "Could not connect. Check your internet connection.";
-status.style.color = "#DC2626";
-} finally {
-// Always re-enable the button
-btn.disabled = false;
-btn.textContent = "Send Message";
-}
-});
-</script>
+    <script src="script.js"></script>
 </body>
 </html>
